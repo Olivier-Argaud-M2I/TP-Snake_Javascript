@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+    display: flex;
+    margin: 1em;
+
+
+}
+
+canvas{
+    display: flex;
+    align-items: center;
+    width: 960px;
+    height: 640px;
+    background-color: white;
+    border-radius: 1em;
+    border: solid 2px rgb(0, 255, 0);
+}
+
+input[type='button'],#score{
+    margin: 2em;
+    width: 100px;
+    height: 40px;
+    border-radius: 1em;
+    border: solid 2px rgb(0, 255, 0);
+}
+
+#score,#X,#Y{
+    background-color: aliceblue;
+    font-size: 2em;
+    text-align: center;
+    vertical-align: middle;
+}
+.rouge{
+    background-color: red;
+}
+.vert{
+    background-color: rgb(0, 255, 0);
+}
